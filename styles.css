@@ -57,7 +57,7 @@ body {
   text-decoration: none;
   color: var(--ink);
 }
-.wordmark svg { width: 30px; height: auto; flex: none; color: #d80621; }
+.wordmark img { width: 30px; height: auto; flex: none; }
 .wordmark-text { display: flex; flex-direction: column; line-height: 1.25; }
 .wordmark-umbrella {
   font-family: var(--sans);
@@ -136,16 +136,6 @@ body {
   padding: 72px 0 64px;
   text-align: left;
 }
-.cover-hero-brand {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  font: 700 26px/1 var(--sans);
-  letter-spacing: -0.02em;
-  color: #fff;
-  margin-bottom: 72px;
-}
-.cover-hero-brand svg { width: 52px; height: 52px; color: #fff; flex: none; }
 .cover-hero-kicker {
   display: block;
   font-size: 13px;
